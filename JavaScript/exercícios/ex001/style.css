@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Niramit:wght@200&display=swap');
+
+:root {
+    --fonte-padrão: 'Niramit', sans-serif;
+}
+
+body {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: #C5FAEC;
+}
+
+h1 {
+    font-family: var(--fonte-padrão);
+
+}
+
+p {
+    font-family: var(--fonte-padrão);
+    font-size: 25px;
+}
+
+input#num1 {
+    width: 100px;
+    font: normal 18pt Arial;
+    padding-top: 5px;
+
+}
+
+input#button {
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: rgb(10, 10, 10);
+    background-image: linear-gradient(to top, rgb(21, 59, 107), transparent);
+    height: 30px;
+    margin-bottom: 30px;
+
+}
+
+div {
+    font-size: 20px;
+    font-family: var(--fonte-padrão);
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.destaque {
+    color: red;
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8"
+
+/*  
+    SELETORES PERSONALIZADOS
+    # = id
+    . = class
+    : = pseudo-class
+    :: = pseudo-elemente
+    > = children
+
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited {
+    color: rgb(0, 1, 61);
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(247, 230, 0);
+}
+
+a::after { /*Faz com que apareçam coisas antes de depois do link*/
+    content: ' [link]'; /*Conteúdo, nesse caso avisa que é link*/
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}

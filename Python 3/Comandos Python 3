@@ -1,0 +1,35 @@
+1ª Maneira de importar Math (Mas importa todas as funcionalidades)
+# utilizando a biblioteca math
+import math
+
+num = int(input('Digite um número: '))
+raiz = math.sqrt(num)  # usando a fórmula da raizq
+
+
+print('A raiz de {} é igual a {}'.format(num, math.ceil(raiz)))  # usando funcionalidade ceil (pode ser floor)
+Digite um número: 30
+A raiz de 30 é igual a 6
+______________________________________________________________________
+
+2ª Maneira importando funcionalidades especificas
+from math import sqrt
+
+
+num = int(input('Digite um número: '))
+raiz = sqrt(num)
+ 
+print('A raiz de {} é igual a {}'.format(num, raiz))  
+Digite um número: 25
+A raiz de 25 é igual a 5.0
+____________________________________________________________________
+
+from math import sqrt, floor
+
+
+num = int(input('Digite um número: '))
+raiz = sqrt(num)
+print('A raiz de {} é igual a {}'.format(num, floor(raiz)))  # usando 2 funcionalidades importadas
+
+Digite um número: 29
+A raiz de 29 é igual a 5
+

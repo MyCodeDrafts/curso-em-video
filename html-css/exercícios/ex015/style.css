@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body {  /* Tudo que estiver dendo de body, será aplicado as modificações */
+    background-color: rgb(231, 187, 220);
+    
+    font-family: Arial, Helvetica, sans-serif; /* Tipo de Fonte */
+    font-size: 18px; /* Tamanho de fonte */
+    
+}
+h1{  /* Você escolhe onde quer cada configuração e aplica para todos os h1 */
+    color: rgb(34, 51, 29);
+}
+p{
+    text-align: justify;
+    text-decoration: double;
+}

@@ -1,0 +1,30 @@
+@charset "UTF-*";
+
+body {
+    background-color: rgb(223, 193, 155);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    display: inline;
+    padding: 3px;
+    border: 50px;
+    background-color: red;
+    border-style: solid;
+    border-color: rgb(255, 12, 12);
+    border-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+nav > a {
+/*  margin: 10px;
+    height: 15px;
+    width: 10px;
+    border-style: solid;
+    border-color: rgb(255, 12, 12);
+    border-radius: 30px;
+    border-top-left-radius: 30px;
+    */
+    
+    
+}

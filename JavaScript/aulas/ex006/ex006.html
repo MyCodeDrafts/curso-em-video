@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+
+    
+    <style>
+       
+       * {
+           margin: auto;
+           max-width: 500px;
+           padding: 0px;
+       }
+
+        body {
+            background-color: rgb(228, 206, 206);
+                        
+        
+        }
+
+        main {
+            background-image: linear-gradient(to right, #B9EBD5, #C1F5D0, #BBDEBB, #D3F5C1);
+            padding-bottom: 300px;
+            margin: auto;
+            border-style: groove;
+            border-color: black;
+            
+        }
+
+
+        h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            color: #575e57;
+            font-size: 50px;
+            max-width: 500px;
+            text-shadow: 1px 2px 1px black;
+            
+        }
+
+        div {
+            margin: auto;
+            margin-top: 50px;
+            
+
+        }
+
+        div#area {
+            font: bold 40px Arial;
+            color: white;
+            background-color: #5d5dfd;
+            width: 200px;
+            height: 84px;
+            text-align: center;
+            line-height: 75px;
+            border-radius: 135px;
+            
+
+        }
+
+        div p {
+            padding-bottom: 30px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Interaja com o Círculo abaixo</h1>
+        <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="vazou()"> <!--<div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"> Fazendo o evento dentro da tag-->
+            <p>Clique  </p>
+        </div>
+    </main>
+
+
+    <script>
+        var a = document.getElementById('area') // Aqui faz a ligação do objeto a dentro do JS com a id area da div
+        function clicar(){
+            a.innerText="Cliclou"
+            a.style.background='grey' //Colocar estilo no evento
+            a.style.color='black'
+            
+        }        
+        function entrar(){
+            a.innerText='Entrou'
+        }
+        function vazou(){
+            a.innerText='Saiu'
+
+        }
+
+         
+    </script>
+</body>
+</html>

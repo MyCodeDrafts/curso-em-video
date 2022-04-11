@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+select {
+    width: 150px;
+}
+
+#finish {
+    margin-top: 10px;
+}

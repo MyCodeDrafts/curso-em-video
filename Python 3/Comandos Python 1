@@ -1,0 +1,23 @@
+n = 'johnny'
+print('Prazer em te conhecer {}'.format(n))
+Prazer em te conhecer johnny
+
+print('Prazer em te conhecer {:20}!'.format(n)) #coloca a quantidade de caracteres
+Prazer em te conhecer johnny              !
+
+print('Prazer em te conhecer {:>20}!'.format(n)) #alinhamento à direita
+Prazer em te conhecer               johnny!
+
+print('Prazer em te conhecer {:<20}!'.format(n)) #alinhamento à esquerda
+Prazer em te conhecer johnny              !
+
+print('Prazer em te conhecer {:^20}!'.format(n)) #deixa centralizado
+Prazer em te conhecer        johnny       !
+
+print('Prazer em te conhecer {:=^20}!'.format(n)) #centralizado em 20 caracteres com o sinal (= nesse caso) em volta
+Prazer em te conhecer =======johnny=======!
+
+
+
+
+
